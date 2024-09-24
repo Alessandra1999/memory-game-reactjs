@@ -1,0 +1,62 @@
+.memory-game {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-color: #ccc;
+  }
+  
+  .card-back {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    background-color: #777;
+  }
+  
+  .card.flipped img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .winner {
+    grid-column: span 4;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #3F9E31;
+  }
+  
+  .winner button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .winner button:hover {
+    background-color: #265328; 
+  }
+  
