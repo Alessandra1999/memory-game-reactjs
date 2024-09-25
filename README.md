@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Jogo da Memória em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de jogo da memória simples desenvolvido com React.js. O jogo apresenta cartas com imagens do anime **Hunter x Hunter**, onde os jogadores devem encontrar pares de cartas correspondentes.
 
-## Available Scripts
+## 🛠️ Funcionalidades
 
-In the project directory, you can run:
+- **Jogar**: Inicie o jogo e comece a encontrar pares de cartas.
+- **Reiniciar o Jogo**: Ao finalizar, você pode reiniciar o jogo com um botão para jogar novamente.
+- **Feedback Visual**: As cartas são reveladas ao serem clicadas e ficam viradas quando um par é encontrado.
 
-### `npm start`
+## 🧰 Conceitos de React Utilizados
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este projeto utiliza os seguintes conceitos de React:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Componentes Funcionais**: Para criar a interface do jogo.
+- **Hooks (useState e useEffect)**: Para gerenciar o estado do jogo e a lógica de contagem de movimentos.
+- **Manipulação de Eventos**: Para lidar com cliques nas cartas.
+- **Renderização Condicional**: Para exibir mensagens quando o jogo termina.
 
-### `npm test`
+### Você pode acessá-lo através do link: https://alessandra1999.github.io/memory-game-reactjs/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ou clonar o repositório e rodar o projeto localmente.
 
-### `npm run build`
+## 📋 Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org) para gerenciar pacotes.
+- Um navegador web para rodar o projeto.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Clonando o Repositório
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Abra o terminal no local onde deseja clonar o repositório.
+2. Execute o comando abaixo:
 
-### `npm run eject`
+   ```bash
+   git clone git@github.com:Alessandra1999/memory-game-reactjs.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Navegue até o diretório do projeto:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ```bash
+  cd memory-game-reactjs
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<hr/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ▶️ Rodando o Projeto Localmente
+Instale as dependências do projeto:
 
-## Learn More
+  ```bash
+  npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Execute o projeto:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  ```bash
+  npm start
 
-### Code Splitting
+O projeto será aberto no seu navegador padrão em http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📄 Estrutura do Projeto
+public/: Contém arquivos públicos, como imagens e o index.html.
+src/: Contém os componentes do jogo.
+components/: Inclui o componente principal do jogo da memória (MemoryGame.jsx).
+App.js: O componente principal que renderiza o jogo.
+App.css: Estilos globais para o projeto.
 
-### Analyzing the Bundle Size
+## 📷 Demonstração
+O jogo da memória apresenta uma interface simples com cartas que podem ser clicadas para revelar imagens, além de um contador de tentativas e um botão para reiniciar o jogo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 Como Funciona
+Clique em uma carta para revelá-la.
+Tente encontrar o par correspondente clicando em outra carta.
+O jogo contará suas tentativas.
+Quando todos os pares forem encontrados, você terá a opção de jogar novamente clicando no botão "Jogar Novamente".
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
