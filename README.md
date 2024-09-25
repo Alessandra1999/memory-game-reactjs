@@ -38,37 +38,41 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 3. Navegue até o diretório do projeto:
 
-  ```bash
-  cd memory-game-reactjs
-
-<hr/>
+   ```bash
+   cd memory-game-reactjs
 
 ## ▶️ Rodando o Projeto Localmente
 Instale as dependências do projeto:
 
-  ```bash
-  npm install
+   ```bash
+   npm install
+   ```
 
 Execute o projeto:
 
-  ```bash
-  npm start
-
-O projeto será aberto no seu navegador padrão em http://localhost:3000.
+   ```bash
+   npm start
+   ```
 
 ## 📄 Estrutura do Projeto
-public/: Contém arquivos públicos, como imagens e o index.html.
-src/: Contém os componentes do jogo.
-components/: Inclui o componente principal do jogo da memória (MemoryGame.jsx).
-App.js: O componente principal que renderiza o jogo.
-App.css: Estilos globais para o projeto.
+
+- **public/**: Contém arquivos públicos, como imagens e o `index.html`.
+- **src/**: Contém os componentes do jogo.
+  - **components/**: Inclui o componente principal do jogo da memória (`MemoryGame.jsx`).
+  - **App.js**: O componente principal que renderiza o jogo.
+  - **App.css**: Estilos globais para o projeto.
+
+---
 
 ## 📷 Demonstração
+
 O jogo da memória apresenta uma interface simples com cartas que podem ser clicadas para revelar imagens, além de um contador de tentativas e um botão para reiniciar o jogo.
 
-## 📝 Como Funciona
-Clique em uma carta para revelá-la.
-Tente encontrar o par correspondente clicando em outra carta.
-O jogo contará suas tentativas.
-Quando todos os pares forem encontrados, você terá a opção de jogar novamente clicando no botão "Jogar Novamente".
+---
 
+## 📝 Como Funciona
+
+1. Clique em uma carta para revelá-la.
+2. Tente encontrar o par correspondente clicando em outra carta.
+3. O jogo contará suas tentativas.
+4. Quando todos os pares forem encontrados, você terá a opção de jogar novamente clicando no botão "Jogar Novamente".
